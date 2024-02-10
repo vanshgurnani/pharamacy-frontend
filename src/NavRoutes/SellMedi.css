@@ -1,0 +1,39 @@
+.qr-scanner {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .scanner-container {
+    margin-bottom: 20px;
+  }
+  
+  .scanned-data {
+
+    padding-bottom: 20px;
+    display: flex;
+    margin-top: 20px;
+  }
+  #medicinestock
+  {
+
+    height: 50px;
+    width: 80px;
+    border: rgb(0, 0, 0);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  

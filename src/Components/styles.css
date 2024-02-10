@@ -1,0 +1,97 @@
+/* Update the color of the "Recently Added" heading to black */
+h3 {
+  color: black;
+}
+
+/* Styles for the slider container */
+.parent {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+/* Styles for each slide */
+.slider {
+  color: wheat;
+  height: 400px;
+  width: auto;
+  margin-top: 2%;
+  margin: 50px;
+  background-color: #F4F8FD;
+  padding: 5%;
+}
+
+/* Styles for the medicine images */
+.slider img {
+  padding: 1px;
+  width: 99%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* Styles for the card content */
+.card-content {
+  padding: 10px;
+}
+
+/* Styles for the medicine name */
+.card-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Styles for the date */
+.card-meta {
+  color: #888;
+  font-size: 14px;
+}
+
+/* Styles for the medicine type */
+.card-description {
+  font-size: 14px;
+  margin-top: 10px;
+  color: black;
+}
+
+/* Styles for the card details */
+.card-det {
+  color: rgb(206, 1, 1);
+}
+
+/* Styles for the carousel dot indicators */
+.custom-dot-list-style button {
+  border: none;
+  background: rgb(255, 68, 68);
+}
+
+/* Styles for the active carousel dot indicator */
+.react-multi-carousel-dot.react-multi-carousel-dot--active button {
+  background: rgb(255, 68, 68) !important;
+}
+
+/* Styles for the main medicine card (in the middle) */
+.main-card {
+  /* Add any styles you want for the main medicine card here */
+}
+
+/* Center the carousel content */
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Remove blur and opacity from side medicine cards */
+.slider:not(.main-medicine) .card {
+  filter: none;
+  opacity: 1;
+}
+
+/* Add a slight zoom-in effect to the main card on hover */
+.slider.main-medicine .card:hover {
+  transform: scale(1.02);
+  transition: transform 1s ease;
+
+}

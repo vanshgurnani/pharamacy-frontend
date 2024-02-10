@@ -1,0 +1,63 @@
+
+.footer {
+    background-color: #f4f8fd;
+    color: #fff;
+    padding: 20px 0;
+   
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .contact-info,
+  .business-hours,
+  .about-us {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    margin: 20px 0;
+    color: black;
+  }
+  
+  .footer-links a {
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    flex: 0 0 30%;
+  }
+  
+  .footer-links {
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer-links a:not(:last-child) {
+    margin-right: 20px;
+  }
+  p
+  {
+    color: black;
+  }
+  
